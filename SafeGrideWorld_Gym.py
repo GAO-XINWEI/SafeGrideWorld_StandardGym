@@ -19,7 +19,7 @@ class SafeGrideWorld_Gym(gym.Env):
     def __init__(self, gride_size=(4, 4), frisbee_state=None, holes_state=None, init_state=12,
                  transition_prob=0.8, max_steps=60):
         """
-
+        This is the safe gride world in standard gym format.
         :param gridSize:        size of gride world in tuple(gridWidth, gridHeight).
         :param frisbee_state:   final goal states in list.
         :param holes_state:     holes states in list
